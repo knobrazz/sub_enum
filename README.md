@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="banner.png" alt="WebHunter Elite Banner" width="900"/>
+<img src="banner.png" alt="Subdomain Hunter Banner" width="900"/>
 
-# 👑 WebHunter Elite Pro
+# 👑 Subdomain Hunter
 
 [![Version](https://img.shields.io/badge/Version-2.0_Premium-gold.svg)](https://github.com/knobrazz/sub_enum)
 [![License](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
