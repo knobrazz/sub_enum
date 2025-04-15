@@ -79,3 +79,31 @@ Optional Tools:
   - Visual Studio Code: "Recommended IDE"
 ```
 
+## 📸 Screenshots & Examples
+
+<details open>
+<summary><b>🖼️ Tool Demonstration</b></summary>
+
+<div align="center">
+
+### Basic Scan Example
+<img src="sample.png" alt="Basic Scan Example" width="800"/>
+
+### Advanced Features Demo
+<img src="demo.gif" alt="Advanced Features Demo" width="800"/>
+
+</div>
+</details>
+
+## ⚠️ Caution & Disclaimer
+
+<div align="center">
+
+```plaintext
+🚨 IMPORTANT SECURITY NOTICE 🚨
+
+This tool is intended for AUTHORIZED SECURITY TESTING ONLY.
+Unauthorized use against systems you don't own or have permission 
+to test is STRICTLY PROHIBITED and may violate applicable laws.
+```
+
