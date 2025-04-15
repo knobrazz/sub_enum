@@ -1,72 +1,75 @@
-# WebHunter 🎯
+<div align="center">
+  
+# 👑 WebHunter Elite
 
-<p align="center">
-  <img src="banner.png" alt="WebHunter Banner" width="800"/>
-</p>
+<img src="banner.png" alt="WebHunter Banner" width="800"/>
 
-<p align="center">
-  <a href="#features">Features</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#tools-integrated">Tools</a> •
-  <a href="#license">License</a>
-</p>
+[![License](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8+-gold.svg)](https://www.python.org)
+[![Version](https://img.shields.io/badge/Version-1.0-gold.svg)](https://github.com/knobrazz/sub_enum)
 
-## 🌟 Overview
-WebHunter is a powerful and feature-rich subdomain enumeration tool that combines multiple techniques and sources to discover subdomains effectively. It integrates with various popular tools and APIs to provide comprehensive results.
+### 🌟 Professional-Grade Subdomain Enumeration Suite
 
-## ✨ Features
+[Features](#-features) •
+[Installation](#-installation) •
+[Usage](#-usage) •
+[Tools](#%EF%B8%8F-integrated-tools) •
+[License](#-license)
 
-### 🔍 Discovery Methods
-- **Passive Enumeration**
-  - Certificate Transparency Logs
-  - DNS Records Analysis
-  - OSINT Data Sources
-  - API Integration
+---
+</div>
 
-- **Active Enumeration**
-  - DNS Brute Force
-  - Zone Transfers
-  - Virtual Host Discovery
-  - Wildcard Detection
+## 🎯 Overview
 
-### 🚀 Performance
-- Multi-threaded Operations
-- Concurrent API Requests
-- Smart Rate Limiting
-- Resource Optimization
+<div align="center">
+  <img src="demo.gif" alt="WebHunter Demo" width="600"/>
+</div>
 
-### 📊 Output Options
-- Multiple Format Support (JSON, TXT, MD)
-- Detailed Reporting
-- Custom Output Directory
-- Progress Tracking
+WebHunter Elite is a state-of-the-art subdomain enumeration platform, meticulously crafted for security professionals and penetration testers. It seamlessly integrates premium tools and APIs to deliver unparalleled results.
 
-### ✅ Validation Features
-- HTTP/HTTPS Validation
-- Status Code Verification
-- SSL Certificate Checking
-- Screenshot Capture (with --httpx)
+## ⚡ Features
 
-## 🔧 Installation
+<details open>
+<summary><b>🔍 Advanced Discovery Methods</b></summary>
 
-### Prerequisites
-- Python 3.8+
-- pip (Python package manager)
-- Git
+### Passive Reconnaissance
+- 📜 Certificate Transparency Logs
+- 🌐 DNS Records Analysis
+- 🎯 OSINT Data Sources
+- 🔌 Premium API Integration
 
-### Setup
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/webhunter.git
+### Active Enumeration
+- 🔨 Intelligent DNS Brute Force
+- 🔄 Zone Transfer Analysis
+- 🎪 Virtual Host Discovery
+- 🎯 Smart Wildcard Detection
+</details>
 
-# Navigate to directory
-cd webhunter
+<details open>
+<summary><b>🚀 Enterprise Performance</b></summary>
 
-# Install requirements
-pip install -r requirements.txt
+- ⚡ Multi-threaded Architecture
+- 🔄 Smart Concurrent Processing
+- 🛡️ Adaptive Rate Limiting
+- 📊 Resource Management
+</details>
 
-# Make script executable (Linux/Mac)
-chmod +x sub_enum.py
+<details open>
+<summary><b>📊 Professional Output</b></summary>
+
+- 📝 Multiple Export Formats
+- 📋 Executive Summary Reports
+- 📁 Organized Output Structure
+- 📈 Real-time Progress Analytics
+</details>
+
+## 💫 Installation
+
+### System Requirements
+```yaml
+Core:
+  - Python: "≥ 3.8"
+  - RAM: "≥ 4GB"
+  - Storage: "≥ 1GB"
 ```
 
