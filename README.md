@@ -21,13 +21,13 @@
 
 ---
 
-<img src="demo.gif" alt="WebHunter Elite Demo" width="700"/>
+<img src="demo.gif" alt="Subdomain Hunter Demo" width="700"/>
 
 </div>
 
 ## 🎯 Overview
 
-WebHunter Elite Pro is an advanced reconnaissance platform designed for security professionals, penetration testers, and bug bounty hunters. Leveraging cutting-edge technologies and premium APIs, it delivers unparalleled subdomain enumeration capabilities.
+Subdomain Hunter is an advanced reconnaissance platform designed for security professionals, penetration testers, and bug bounty hunters. Leveraging cutting-edge technologies and premium APIs, it delivers unparalleled subdomain enumeration capabilities.
 
 <div align="center">
 
