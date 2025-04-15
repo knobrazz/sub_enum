@@ -1,82 +1,72 @@
-# WebHunter - Advanced Subdomain Enumeration Tool
+# WebHunter 🎯
 
-## Description
-A powerful subdomain enumeration tool that combines multiple techniques and sources to discover subdomains effectively.
+<p align="center">
+  <img src="banner.png" alt="WebHunter Banner" width="800"/>
+</p>
 
-## Features
-- 🔍 **Multiple Discovery Methods**
-  - Passive enumeration using various APIs and services
-  - Active enumeration with brute-force capabilities
-  - Integration with popular tools (Amass, Subfinder, Assetfinder, etc.)
-  - Certificate transparency logs scanning
-  - DNS records analysis
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#tools-integrated">Tools</a> •
+  <a href="#license">License</a>
+</p>
 
-- 🚀 **Performance Optimization**
-  - Multi-threaded scanning
-  - Concurrent API requests
-  - Efficient memory management
-  - Smart rate limiting to avoid API blocks
+## 🌟 Overview
+WebHunter is a powerful and feature-rich subdomain enumeration tool that combines multiple techniques and sources to discover subdomains effectively. It integrates with various popular tools and APIs to provide comprehensive results.
 
-- 📊 **Advanced Output Options**
-  - Multiple format support (JSON, TXT, MD)
-  - Detailed reporting with vulnerability assessment
-  - Export options for further analysis
-  - Progress tracking with rich console output
+## ✨ Features
 
-- ✅ **Validation & Filtering**
-  - Active subdomain validation
-  - HTTP/HTTPS status checking
-  - Response code analysis
-  - Web service identification
-  - Screenshot capture capability (with --httpx)
+### 🔍 Discovery Methods
+- **Passive Enumeration**
+  - Certificate Transparency Logs
+  - DNS Records Analysis
+  - OSINT Data Sources
+  - API Integration
 
-- 🛡️ **Security Features**
-  - Rate limiting protection
-  - API key management
-  - Error handling and recovery
-  - Proxy support for anonymous scanning
+- **Active Enumeration**
+  - DNS Brute Force
+  - Zone Transfers
+  - Virtual Host Discovery
+  - Wildcard Detection
 
-- 🔧 **Customization Options**
-  - Configurable thread count
-  - Custom wordlist support
-  - Adjustable timeout settings
-  - Multiple output directory options
+### 🚀 Performance
+- Multi-threaded Operations
+- Concurrent API Requests
+- Smart Rate Limiting
+- Resource Optimization
 
-## Installation
+### 📊 Output Options
+- Multiple Format Support (JSON, TXT, MD)
+- Detailed Reporting
+- Custom Output Directory
+- Progress Tracking
+
+### ✅ Validation Features
+- HTTP/HTTPS Validation
+- Status Code Verification
+- SSL Certificate Checking
+- Screenshot Capture (with --httpx)
+
+## 🔧 Installation
+
+### Prerequisites
+- Python 3.8+
+- pip (Python package manager)
+- Git
+
+### Setup
 ```bash
-git clone https://github.com/knobrazz/sub_enum.git
-cd sub_enum
+# Clone the repository
+git clone https://github.com/yourusername/webhunter.git
+
+# Navigate to directory
+cd webhunter
+
+# Install requirements
 pip install -r requirements.txt
+
+# Make script executable (Linux/Mac)
+chmod +x sub_enum.py
 ```
-
-## Acknowledgments & Credits
-
-This project utilizes several amazing open-source tools and libraries. We're grateful to their creators and maintainers:
-
-### Core Libraries
-- [Requests](https://github.com/psf/requests) - Apache License 2.0
-- [Rich](https://github.com/Textualize/rich) - MIT License
-- [HTTPX](https://github.com/encode/httpx) - BSD License
-- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) - MIT License
-- [Colorama](https://github.com/tartley/colorama) - BSD License
-
-### Data Sources & APIs
-- [VirusTotal](https://www.virustotal.com/gui/home/search) - Free API usage within terms
-- [SecurityTrails](https://securitytrails.com/) - API usage within terms
-- [Crt.sh](https://crt.sh/) - Certificate Transparency logs
-- [CertSpotter](https://sslmate.com/certspotter/) - Cert Transparency search
-- [DNSDumpster](https://dnsdumpster.com/) - DNS recon & research
-- [HackerTarget](https://hackertarget.com/) - Public API usage
-
-### External Tools Integration
-- [Subfinder](https://github.com/projectdiscovery/subfinder) - MIT License
-- [Amass](https://github.com/OWASP/Amass) - Apache License 2.0
-- [Assetfinder](https://github.com/tomnomnom/assetfinder) - MIT License
-- [Findomain](https://github.com/Findomain/Findomain) - GPL-3.0 License
-
-## Legal Notice
-This tool is meant for security research and penetration testing with proper authorization. Users are responsible for complying with applicable laws and terms of service of integrated tools and APIs.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
