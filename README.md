@@ -44,7 +44,7 @@ A powerful subdomain enumeration tool that combines multiple techniques and sour
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/webhunter.git
+git clone https://github.com/knobrazz/sub_enum.git
 cd webhunter
 pip install -r requirements.txt
 ```
