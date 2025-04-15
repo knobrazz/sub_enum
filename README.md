@@ -1,58 +1,87 @@
 <div align="center">
-  
-# 👑 WebHunter Elite
 
-<img src="banner.png" alt="WebHunter Banner" width="800"/>
+<img src="banner.png" alt="WebHunter Elite Banner" width="900"/>
 
+# 👑 WebHunter Elite Pro
+
+[![Version](https://img.shields.io/badge/Version-2.0_Premium-gold.svg)](https://github.com/knobrazz/sub_enum)
 [![License](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8+-gold.svg)](https://www.python.org)
-[![Version](https://img.shields.io/badge/Version-1.0-gold.svg)](https://github.com/knobrazz/sub_enum)
+[![Stars](https://img.shields.io/badge/Stars-⭐⭐⭐⭐⭐-gold.svg)](https://github.com/knobrazz/sub_enum)
 
-### 🌟 Professional-Grade Subdomain Enumeration Suite
+<p align="center">
+    <em>🚀 The Ultimate Professional-Grade Subdomain Enumeration & Reconnaissance Suite</em>
+</p>
 
-[Features](#-features) •
-[Installation](#-installation) •
-[Usage](#-usage) •
-[Tools](#-integrated-tools) •
-[License](#-license)
+[📚 Documentation](https://github.com/knobrazz/sub_enum/wiki) •
+[🚀 Quick Start](#-quick-start) •
+[💫 Features](#-features) •
+[📊 Examples](#-examples) •
+[📜 License](#-license)
 
 ---
+
+<img src="demo.gif" alt="WebHunter Elite Demo" width="700"/>
+
 </div>
 
 ## 🎯 Overview
 
+WebHunter Elite Pro is an advanced reconnaissance platform designed for security professionals, penetration testers, and bug bounty hunters. Leveraging cutting-edge technologies and premium APIs, it delivers unparalleled subdomain enumeration capabilities.
+
 <div align="center">
-  <img src="demo.gif" alt="WebHunter Demo" width="600"/>
+
+### ✨ Key Highlights
+
+| 🔍 Discovery | 🚀 Performance | 🛡️ Security |
+|-------------|----------------|-------------|
+| Multi-source Intel | Multi-threaded | Rate Limited |
+| Active & Passive | Resource Optimized | API Protected |
+| Premium APIs | Real-time Analysis | Proxy Support |
+| Custom Wordlists | Smart Caching | Error Handling |
+
 </div>
 
-WebHunter Elite is a state-of-the-art subdomain enumeration platform, meticulously crafted for security professionals and penetration testers. It seamlessly integrates premium tools and APIs to deliver unparalleled results.
-
-## ⚡ Features
+## 💫 Features
 
 <details open>
-<summary><b>🔍 Advanced Discovery Methods</b></summary>
+<summary><b>🔍 Advanced Discovery Engine</b></summary>
 
 ### Passive Reconnaissance
-- 📜 Certificate Transparency Logs
-- 🌐 DNS Records Analysis
-- 🎯 OSINT Data Sources
-- 🔌 Premium API Integration
+- 📜 Certificate Transparency Analysis
+- 🌐 DNS Intelligence Gathering
+- 🎯 OSINT Data Integration
+- 🔌 Premium API Services
 
 ### Active Enumeration
-- 🔨 Intelligent DNS Brute Force
-- 🔄 Zone Transfer Analysis
+- 🔨 Smart DNS Brute Force
+- 🔄 Zone Transfer Detection
 - 🎪 Virtual Host Discovery
-- 🎯 Smart Wildcard Detection
+- 🎯 Wildcard Analysis
 </details>
 
 <details open>
 <summary><b>🚀 Enterprise Performance</b></summary>
 
-- ⚡ Multi-threaded Architecture
-- 🔄 Smart Concurrent Processing
-- 🛡️ Adaptive Rate Limiting
-- 📊 Resource Management
+- ⚡ Optimized Multi-threading
+- 🔄 Intelligent Rate Limiting
+- 🛡️ Resource Management
+- 📊 Real-time Analytics
 </details>
+
+## 🚀 Quick Start
+
+<details open>
+<summary><b>⚙️ Installation</b></summary>
+
+```bash
+# Clone Repository
+git clone https://github.com/knobrazz/sub_enum.git
+
+# Setup Environment
+cd sub_enum
+pip install -r requirements.txt
+```
 
 <details open>
 <summary><b>📊 Professional Output</b></summary>
