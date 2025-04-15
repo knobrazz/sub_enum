@@ -13,7 +13,7 @@
 [Features](#-features) •
 [Installation](#-installation) •
 [Usage](#-usage) •
-[Tools](#%EF%B8%8F-integrated-tools) •
+[Tools](#-integrated-tools) •
 [License](#-license)
 
 ---
@@ -65,11 +65,17 @@ WebHunter Elite is a state-of-the-art subdomain enumeration platform, meticulous
 
 ## 💫 Installation
 
-### System Requirements
+<details open>
+<summary><b>⚙️ System Requirements</b></summary>
+
 ```yaml
-Core:
+Core Requirements:
   - Python: "≥ 3.8"
   - RAM: "≥ 4GB"
   - Storage: "≥ 1GB"
+
+Optional Tools:
+  - Git: "Latest Version"
+  - Visual Studio Code: "Recommended IDE"
 ```
 
